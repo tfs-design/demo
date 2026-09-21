@@ -1,4 +1,4 @@
-﻿@import "tailwindcss";
+@import "tailwindcss";
 
 @layer base {
   html, body {
@@ -34,4 +34,16 @@
   overflow: hidden;
   white-space: nowrap;
   animation: typing 0.5s steps(40, end);
+}
+
+.font-romantic {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.font-script {
+  font-family: 'Dancing Script', cursive;
+}
+
+.font-sans-modern {
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
 }
